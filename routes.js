@@ -2,9 +2,9 @@
 
 module.exports = (app, i18n) => {
   app.get('/', function (req, res) {
-    // var locale = 'en';
-    // req.setLocale(locale);
-    res.setLocale(req.cookies.i18n);
+    if (!!req.cookies.i18n){
+      res.setLocale(req.cookies.i18n);
+    }
     res.render('main', {
     i18n: res
     })
