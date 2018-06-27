@@ -10,11 +10,10 @@ module.exports = (app, i18n) => {
     })
   });
 
-  app.get('/contact', function (req, res) {
-    res.render('contact', {
-    i18n: res
-    })
-  });
+  // app.get('/de', function (req, res) {
+  //   res.cookie('i18n', 'de');
+  //   res.redirect('/')
+  // });
 
   app.get('/es', function (req, res) {
     res.cookie('i18n', 'es');
