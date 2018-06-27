@@ -1,0 +1,26 @@
+{
+  "name": "i18n_app",
+  "version": "1.0.0",
+  "description": "NodeJS app with internacionalization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenyMzo/i18n_app.git"
+  },
+  "author": "Jeny Mazo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JenyMzo/i18n_app/issues"
+  },
+  "homepage": "https://github.com/JenyMzo/i18n_app#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "i18n": "^0.8.3",
+    "jade": "^1.11.0"
+  }
+}
